@@ -1,0 +1,60 @@
+body,html {
+  margin: 10;
+  font-family: sans-serif;
+  background: #545C52;
+  
+
+
+
+}
+p{
+  
+  text-align: justify;
+  size: 10;
+  color: white;
+}
+h1{
+  text-shadow: 10px 5px 10px orange;
+  text-align: center;
+  color: white;
+  font-size: 60px;
+
+
+}
+
+ul {
+  padding: 30;
+  width: 90%;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  display: inline-table;
+  width: 12%;
+  margin-right: 0.625%;
+  text-align: center;
+  line-height: 3;
+  color: black;
+}
+
+li:last-child a {
+  margin-right: 0;
+}
+
+a:link, a:visited, a:focus {
+  background: #2C9476;
+}
+
+a:hover {
+  background: orange;
+}
+
+a:active {
+  background: white;
+  color: white;
+}
